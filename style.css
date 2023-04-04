@@ -30,6 +30,7 @@ header {
 .messages-list {
   height: 70vh;
   padding-right: 10px;
+  overflow-y: auto;
 }
 
 .message-item {
@@ -52,7 +53,7 @@ header {
 .message-user .msg-user {
   text-align: right;
   float: right;
-  width: 590px;
+  width: 580px;
   order: 1;
 }
 
